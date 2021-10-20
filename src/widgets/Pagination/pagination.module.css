@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+
+.textPale {
+    color: #707070
+}
+
+.textBright {
+    opacity: 1;
+    margin-right: 7px;
+    color: #fff
+}
+
+.btnGroup {
+    margin-left: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+}
+
+.btn {
+    all: unset;
+    background: #3C3C3C;
+    border-radius: 60px;
+    padding: 7px 32.5px;
+    font-size: 10px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+}

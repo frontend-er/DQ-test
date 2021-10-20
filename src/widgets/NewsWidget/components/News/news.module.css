@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+.cardsContainer {
+    width: 876px;
+}
+
+.loading {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+
+.FirstCardContainer {
+    flex: 1;
+    margin-right: 24px;
+}
+
+.paginationContainer {
+    margin-top: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 280px));
+    grid-gap: 18px;
+}

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    justify-self: start;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    font-weight: 900;
+}
+
+.item {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 28px;
+    cursor: pointer;
+
+    transition: opacity 0.5s;
+}
+.item:not(.item.active):hover {
+    opacity: 0.75;
+}
+.item.active {
+    opacity: 1;
+}

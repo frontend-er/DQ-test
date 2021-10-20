@@ -1,0 +1,116 @@
+.card {
+    display: block;
+    width: 478px;
+    height: 628px;
+    border-radius: 6px;
+    padding: 25px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.cardInner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cardHeadline {
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+.latestTag {
+    position:absolute;
+    right: 20px;
+    background-color: #e94e68;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px;
+
+
+}
+
+
+.summary {
+    margin-top: 10px;
+    opacity: 0.75;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.date {
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+
+.sourse {
+    border-left:1px solid  rgb(95, 95, 95); ;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: rgb(168, 168, 168);
+    font-size: 14px;
+
+}
+
+
+.related  {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    position:absolute;
+    padding: 6px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(28, 58, 82, 0) 0%, #05141B 75.5%);
+    opacity: 0.79;
+}
+
+.iconContainer {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+}
+.iconContainer:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250%;
+    height: 250%;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}

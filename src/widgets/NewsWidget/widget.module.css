@@ -1,0 +1,35 @@
+.widget {
+    display: grid;
+    grid-gap: 26px;
+    margin: 65px 0;
+}
+
+.widgetBody {
+    display: flex;
+}
+
+.widgetHead {
+    display: flex;
+    align-items: center;
+}
+
+.widgetTabList {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+
+.widgetTabItem {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 28px;
+    cursor: pointer;
+
+    transition: opacity 0.5s;
+}
+.widgetTabItem:not(.widgetTabItem.active):hover {
+    opacity: 0.75;
+}
+.widgetTabItem.active {
+    opacity: 1;
+}
